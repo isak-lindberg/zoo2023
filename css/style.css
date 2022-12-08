@@ -58,3 +58,28 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
+
+#meny {
+    display: grid;
+    height: 100vh;
+    row-gap: 0px;
+    column-gap: 0px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 20% 1fr;
+    grid-template-areas:
+    'hd_meny hd_meny hd_meny'
+    'mn_meny mn_meny mn_meny'
+}
+
+.meny_hd {
+    grid-area: hd_meny;
+    background-color:cornsilk;
+    display: flex;
+    justify-content: center;
+}
+
+.meny_h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 5px;
+}
