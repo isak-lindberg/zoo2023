@@ -20,26 +20,35 @@ header {
     grid-area:hd;
     background-color:cornsilk;
     display: flex;
-    justify-content: flex-start;
-    padding-left: 150px;
 }
 
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
+}
+
+.intro_h1 {
     margin: 5px;
+    justify-content: flex-start;
+    padding-left: 150px;
 }
 
 main {
     grid-area: mn;
+    display: flex;
+}
+
+.intro_mn {
     background-image: url("../img/animals/katt\ 7.jpg");
     background-size: cover;
     background-position-y: -150px;
-    display: flex;
 }
 
 h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.intro_h2 {
     margin: auto;
     color: white;
 }
@@ -64,22 +73,70 @@ a {
     height: 100vh;
     row-gap: 0px;
     column-gap: 0px;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 20% 1fr;
+    grid-template-rows: 25% 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-    'hd_meny hd_meny hd_meny'
-    'mn_meny mn_meny mn_meny'
+    'hd hd hd'
+    'mn mn mn'
 }
 
 .meny_hd {
-    grid-area: hd_meny;
+    grid-area: hd;
+    background-image: url("../img/animals/katt\ 12.jpg");
+    background-size: cover;
+    background-position-y: -200px;
     background-color:cornsilk;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .meny_h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
-    margin: 100px;
+    margin: 0px;
+}
+
+.meny_mn {
+    grid-area: mn;
+    background-color:cornsilk;
+    display: flex;
+}
+
+h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.meny_h2_1 {
+    justify-self: flex-start;
+    padding-left: 100px;
+    align-self: flex-start;
+}
+
+.meny_h3_1 {
+    justify-self: left;
+    align-self: center;
+}
+
+.meny_h2_2 {
+    justify-self: flex-start;
+    padding-left: 100px;
+    align-self: flex-start;
+}
+
+.meny_h3_2 {
+    justify-self: left;
+    align-self: center;
+}
+
+.meny_h2_3 {
+    justify-self: flex-start;
+    padding-left: 100px;
+    align-self: flex-start;
+}
+
+.meny_h3_3 {
+    justify-self:left;
+    align-self: center;
+    padding-right: 100px;
 }
