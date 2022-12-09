@@ -36,6 +36,7 @@ h1 {
 main {
     grid-area: mn;
     display: flex;
+    background-color: cornsilk;
 }
 
 .intro_mn {
@@ -101,6 +102,7 @@ a {
     grid-area: mn;
     background-color:cornsilk;
     display: flex;
+    flex-direction: row;
 }
 
 h3 {
@@ -109,7 +111,7 @@ h3 {
 
 .meny_h2_1 {
     justify-self: flex-start;
-    padding-left: 100px;
+    padding-left: 75px;
     align-self: flex-start;
 }
 
@@ -120,7 +122,7 @@ h3 {
 
 .meny_h2_2 {
     justify-self: flex-start;
-    padding-left: 100px;
+    padding-left: 75px;
     align-self: flex-start;
 }
 
@@ -131,12 +133,12 @@ h3 {
 
 .meny_h2_3 {
     justify-self: flex-start;
-    padding-left: 100px;
+    padding-left: 75px;
     align-self: flex-start;
 }
 
 .meny_h3_3 {
     justify-self:left;
     align-self: center;
-    padding-right: 100px;
+    padding-right: 200px;
 }
