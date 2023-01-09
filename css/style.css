@@ -142,3 +142,48 @@ h3 {
     align-self: center;
     padding-right: 200px;
 }
+
+#djur {
+    display: grid;
+    height: 100vh;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-rows: 10% 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'hd hd hd'
+    'mn mn mn'
+    'mn mn mn'
+}
+
+.djur_hd {
+    grid-area: hd;
+    background-color:cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.djur_h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.djur_mn {
+    grid-area: mn;
+    background-color: white;
+    display: flex;
+    column-gap: 20%;
+}
+
+.djurbox {
+    flex-direction: column;
+    align-items: auto;
+    justify-content: auto;
+    text-align: auto;
+    display:flex;
+    flex-basis: 10000000px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
