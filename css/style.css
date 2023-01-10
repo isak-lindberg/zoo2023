@@ -40,7 +40,7 @@ main {
 }
 
 .intro_mn {
-    background-image: url("../img/animals/katt\ 7.jpg");
+    background-image: url("../img/animals/katt7.jpg");
     background-size: cover;
     background-position-y: -150px;
 }
@@ -83,9 +83,9 @@ a {
 
 .meny_hd {
     grid-area: hd;
-    background-image: url("../img/animals/katt\ 12.jpg");
+    background-image: url("../img/animals/katt12.jpg");
     background-size: cover;
-    background-position-y: -200px;
+    background-position-y: 27%;
     background-color:cornsilk;
     display: flex;
     justify-content: center;
@@ -111,7 +111,7 @@ h3 {
 
 .meny_h2_1 {
     justify-self: flex-start;
-    padding-left: 75px;
+    padding-left: 4%;
     align-self: flex-start;
 }
 
@@ -122,7 +122,6 @@ h3 {
 
 .meny_h2_2 {
     justify-self: flex-start;
-    padding-left: 75px;
     align-self: flex-start;
 }
 
@@ -133,14 +132,13 @@ h3 {
 
 .meny_h2_3 {
     justify-self: flex-start;
-    padding-left: 75px;
     align-self: flex-start;
 }
 
 .meny_h3_3 {
     justify-self:left;
     align-self: center;
-    padding-right: 200px;
+    padding-right: 10%;
 }
 
 #djur {
@@ -174,7 +172,7 @@ h3 {
     grid-area: mn;
     background-color: white;
     display: flex;
-    column-gap: 20%;
+    column-gap: 12%;
 }
 
 .djurbox {
@@ -184,6 +182,6 @@ h3 {
     text-align: auto;
     display:flex;
     flex-basis: 10000000px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
