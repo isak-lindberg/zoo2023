@@ -142,3 +142,22 @@ h3 {
     align-self: center;
     padding-right: 200px;
 }
+
+#djur {
+    display: grid;
+    height: 100vh;
+    row-gap: 0px;
+    column-gap: 0px;
+    grid-template-rows: 10% 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    'hd hd hd'
+    'mn mn mn'
+    'mn mn mn'
+}
+
+.djur_h1 {
+    margin: 5px;
+    justify-content: flex-start;
+    padding-left: 150px;
+}
